@@ -1,0 +1,135 @@
+.full {
+	width: 100%;
+}
+
+.width80 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.maingrid {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.leftgrid p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-family: "Georgia", serif;
+}
+
+.herohead {
+	position: relative;
+	background-color: rgba(0, 105, 78, .8);
+	margin-top: -450px;
+	z-index: 1;
+	text-align: center;
+	color: #dadada;
+}
+
+.herohead h1, .label {
+	font-family: "Passion One", serif;
+	letter-spacing: .04em;
+	font-size: 7em;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	padding-top: 20px;
+}
+
+.herohead h3 {
+	font-family: "Georgia", serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	line-height: 1.4em;
+	margin: 0px;
+	padding-bottom: 70px;
+
+}
+.label {
+	font-size: 1.5em;
+}
+
+
+.story {
+	background-color: #ffffff;
+	padding-top: 40px;
+	color: #333333;
+	text-align: left;
+	position: relative;
+}
+
+.logo {
+	background-image: url(../images/postlogo.png);
+	background-position: 0 2px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+	height: 80px;
+	width: 165px;
+}
+
+ul.right {
+	list-style-type: none;
+}
+
+.right li {
+	float: left;
+}
+
+.right li:hover {
+	background-color: #00694e;
+}
+
+.right li a {
+	text-transform: uppercase;
+	display: block;
+	padding: 25px 20px 23px 20px;
+}
+
+li a {
+	color: #333333;
+	text-decoration: none;
+	font-size: .9em;
+	letter-spacing: .2em;
+}
+
+.right li:hover, .right li a:hover {
+	color: #dadada;
+}
+
+.leftgrid {
+	padding-left: 5%;
+	width: 65%;
+	float:left;
+}
+
+.rightgrid {
+	padding-right: 5%;
+	width: 20%;
+	float: right;
+}
+
+.top-adjust {
+	padding-top: 60px;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.left {
+	float: left;
+	margin-left: 20px;
+}
+
+.right {
+	float: right;
+}
+
+.top-bar {
+	background-color: #dadada;
+	height: 80px;
+	margin-top: -20px;
+	width: 100%;
+	z-index: 100;
+}
